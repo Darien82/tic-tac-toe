@@ -10,8 +10,8 @@ $(document).ready(function(){
       else { $(this).append("O"); }
       move++;
       if (checkForWinner()!=-1 && checkForWinner()!="") { 
-	if (checkForWinner()=="X") { alert("Player 1 wins!"); }
-        else { alert("Player 2 wins!"); }
+	if (checkForWinner()=="X") { alert("Player 1 wins this round!"); }
+        else { alert("Player 2 wins this round!"); }
         play = false; 
       }
     }
